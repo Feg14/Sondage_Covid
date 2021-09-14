@@ -12,6 +12,6 @@ code=requests.post(url_forms,data=payload)
 
 
 now=dt.datetime.now()
-log=open("D:\\log.txt","a")
+log=open("D:\\log.txt","a") #Changer pour le répertoire souhaité 
 log.write('\n')
 log.write(str(now)+" Code: "+str(code))
