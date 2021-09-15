@@ -17,6 +17,6 @@ if semaine!=5 and semaine!=6:
 
 
 now=dt.datetime.now()
-log=open("D:\\logd.txt","a")
+log=open("D:\\log.txt","a")
 log.write('\n')
 log.write(str(now)+" Code: "+str(code))#Enregistrer le code ré'onse des requêtes
